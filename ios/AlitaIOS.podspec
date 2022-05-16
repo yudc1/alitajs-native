@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Alita iOS SDK is a wrapper of Capacitor. Support open web through URL or custom web folder.
                        DESC
-  s.homepage         = 'https://github.com/alitajs/alitajs-native/tree/main/ios'
+  s.homepage         = 'https://github.com/yudc1/alitajs-native/tree/main/ios'
   s.license          = 'MIT'
   s.author           = { 'falcon11' => 'savebtc11@gmail.com' }
-  s.source           = { :git => 'https://github.com/alitajs/alitajs-native.git', :tag => s.name.to_s + '@'+s.version.to_s }
+  s.source           = { :git => 'https://github.com/yudc1/alitajs-native.git', :tag => s.name.to_s + '@'+s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files = 'ios/AlitaIOS/Classes/**/*', 'AlitaIOS/Classes/**/*'
   s.resources = [
