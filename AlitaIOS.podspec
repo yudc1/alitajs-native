@@ -27,6 +27,7 @@ Alita iOS SDK is a wrapper of Capacitor. Support open web through URL or custom 
     'AlitaIOS/Assets/capacitor.config.json',
     'AlitaIOS/Assets/config.xml'
   ]
+  s.dependency 'Capacitor', '>= 3.3.3'
   s.dependency 'CapacitorActionSheet'
   s.dependency 'CapacitorAppLauncher'
   s.dependency 'CapacitorApp'
@@ -39,7 +40,6 @@ Alita iOS SDK is a wrapper of Capacitor. Support open web through URL or custom 
   s.dependency 'CapacitorGeolocation'
   s.dependency 'CapacitorKeyboard'
   s.dependency 'CapacitorLocalNotifications'
-  s.dependency 'CapacitorNetwork'
   s.dependency 'CapacitorPushNotifications'
   s.dependency 'CapacitorShare'
   s.dependency 'CapacitorStatusBar'
